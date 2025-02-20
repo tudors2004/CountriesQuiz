@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+    <h1>Countries of the world quiz</h1>
+    <h2>How many countries can you name?</h2>
+    <ul id="quiz">
+        <li>Click the map to zoom</li>
+        <li>Use the common english names of the UN members</li>
+    </ul>
+    <button id="startQuiz">Start Quiz</button>
+<div id="quizContainer" style="display: none;">
+    <h2>
+        <span id="timer">15:00</span>
+        <label for="guessInput" id="inputtext">Type a country:</label>
+        <input type="text" id="guessInput"  style="display: none;">
+    </h2>
+    <button id="giveUp" style="display: none;">Give Up?</button>
+    <p id="score">0 / 196 guessed</p>
+    <div id="map"></div>
+    <div class="continent-tables">
+        <div class="continent" id="europe"><h3>Europe</h3><ul></ul></div>
+        <div class="continent" id="asia"><h3>Asia</h3><ul></ul></div>
+        <div class="continent" id="africa"><h3>Africa</h3><ul></ul></div>
+        <div class="continent" id="north-america"><h3>North America</h3><ul></ul></div>
+        <div class="continent" id="south-america"><h3>South America</h3><ul></ul></div>
+        <div class="continent" id="oceania"><h3>Oceania</h3><ul></ul></div>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Countries of the world quiz</title>-->
+<!--    <link rel="stylesheet" href="style.css">-->
+<!--    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />-->
+<!--</head>-->
+<!--<body>-->
+<!--    <button id="start">Start Quiz</button>-->
+<!--    <h1>Countries of the world quiz</h1>-->
+<!--    <h2>How many countries can you name?</h2>-->
+<!--    <ul id="quiz">-->
+<!--        <li>Click the map to zoom</li>-->
+<!--        <li>Use the common english names of the UN members</li>-->
+<!--    </ul>-->
+<!--<h3><span id="timer">15:00</span>-->
+<!--    <label for="guessInput" id="inputtext">Type a country:</label>-->
+<!--    <input type="text" id="guessInput">-->
+<!--</h3>-->
+<!--<button id="giveUp">Give Up?</button>-->
+<!--<p id="score">0 / 196 guessed</p>-->
+<!--<div id="map"></div>-->
+
+<!--<h2>Continents</h2>-->
+<!--<div class="continent-tables">-->
+<!--    <div class="continent" id="europe"><h3>Europe</h3><ul></ul></div>-->
+<!--    <div class="continent" id="asia"><h3>Asia</h3><ul></ul></div>-->
+<!--    <div class="continent" id="africa"><h3>Africa</h3><ul></ul></div>-->
+<!--    <div class="continent" id="north-america"><h3>North America</h3><ul></ul></div>-->
+<!--    <div class="continent" id="south-america"><h3>South America</h3><ul></ul></div>-->
+<!--</div>-->
+
+<!--<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>-->
+<!--<script src="script.js"></script>-->
+
+<!--</body>-->
+<!--</html>-->

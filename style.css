@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(90deg, #ffc4c4, #ffffff, #cae2ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    margin-top: 1%;
+    text-align: center;
+    color: #333;
+}
+h2{
+    margin: 20px 0;
+    color: #333;
+}
+
+button{
+    padding: 10px 20px;
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Calibri, sans-serif;
+    margin-left: 1%;
+}
+#guessInput{
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Roboto", "Helvetica Neue", sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#inputtext{
+    margin-left: 0.3%;
+}
+button:hover{
+    background: #ff0000;
+}
+button:active{
+    background: #8b0000;
+}
+#map {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+#map {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#startQuiz {
+    background-color: green;
+    color: white;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.continent-tables {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.continent {
+    border: 2px solid black;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.continent h3 {
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+#europe h3 { background-color: blue; }
+#asia h3 { background-color: red; }
+#africa h3 { background-color: purple; }
+#north-america h3 { background-color: orange; }
+#south-america h3 { background-color: green; }
+#oceania h3 { background-color: dodgerblue; }
